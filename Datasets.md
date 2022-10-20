@@ -1,5 +1,5 @@
 
-# Datasets for Domain Adaptation
+# Datasets for Domain Adaptation in semantic segmentation
 
 
 ## Cityscape
