@@ -6,7 +6,7 @@
 
 **Cite**：Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld, Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, and Bernt Schiele. The cityscapes dataset for semantic urban scene understanding. In CVPR, pages 3213–3223, 2016. 5  
 
-**Download Page**: https://www.cityscapes-dataset.com/
+**Links**: [page/downloads](https://www.cityscapes-dataset.com/)
 
 **Introduction**: A real-world dataset for semantic segmentation featuring driving scenes and dense manual annotations. The dataset consists of street view images captured in 50 different cities. 
 
@@ -14,8 +14,7 @@
 
 **Validation Set**: 500
 
-<img src="image-20221019201044630.png" alt="image-20221019201044630" style="zoom:50%;" />
-
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019201044630.png)
 
 
 ## GTA5
@@ -34,7 +33,7 @@ The datset include 33 different categories.
 
 **Validataon Set:** The same as we did in the training set.
 
-<img src="image-20221019202137066.png" alt="image-20221019202137066" style="zoom:50%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019202137066.png)
 
 ## SYNTHIA
 
@@ -66,7 +65,7 @@ The datset include 33 different categories.
 
 **Validataon Set:** The same as we did in the training set.
 
-![image-20221019202937683](image-20221019202937683.png)
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019202937683.png)
 
 ## Dark Scences
 
@@ -87,7 +86,7 @@ daytime images for training, which are all unlabeled with a resolution of **1, 9
 
 **Validataon Set:** The same as we did in the training set.
 
-<img src="image-20221019204125165.png" alt="image-20221019204125165" style="zoom:50%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019204125165.png)
 
 ### Nighttime Driving
 
@@ -110,9 +109,9 @@ from diverse visual scenes. All these 50 images have been annotated at the pixel
 
 **Introduction:** It contains four adverse-condition categories (fog, rain, snow and nighttime) with pixel-level annotations. Each of them contains **1000** images and is split into train set, validation set and test set for roughly 4:1:5 proportion. The test set is withheld for testing online. 
 
-<img src="image-20221019211342097.png" alt="image-20221019211342097" style="zoom:67%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019211342097.png)
 
-<img src="image-20221019211719076.png" alt="image-20221019211719076" style="zoom:67%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019211719076.png)
 
 ### NightCity  
 
@@ -125,13 +124,13 @@ semantic annotations. As compared with Cityscapes, NightCity covers more diverse
 
 image size: 1024 * 512  
 
-<img src="image-20221020104932009.png" alt="image-20221020104932009" style="zoom:50%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221020104932009.png)
 
-<img src="image-20221020104854470.png" alt="image-20221020104854470" style="zoom:67%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221020104854470.png)
 
-<img src="image-20221020104751571.png" alt="image-20221020104751571" style="zoom:50%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221020104751571.png)
 
-<img src="image-20221020104811132.png" alt="image-20221020104811132" style="zoom:67%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221020104811132.png)
 
 ## Foggy Scences
 
@@ -147,11 +146,13 @@ The authors develop a fog simulation pipeline for real outdoor scenes and apply 
 
 The authors provide three different versions of **Foggy Cityscapes** for the 5000 training+validation+testing Cityscapes images, each characterized by a constant attenuation coefficient which determines the fog density and the visibility range. The values of the attenuation coefficient are 0.005, 0.01 and 0.02m-1 and correspond to visibility ranges of 600, 300 and 150m respectively. For the 20000 extra training Cityscapes images, the authors provide a single version with attenuation coefficient of 0.01m-1. Examples of **Foggy Cityscapes** scenes for varying fog density are shown below.
 
-<img src="image-20221019212655320.png" alt="image-20221019212655320" style="zoom:50%;" />
 
-<img src="image-20221019212118738.png" alt="image-20221019212118738" style="zoom: 50%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019212655320.png)
 
-<img src="image-20221019212138793.png" alt="image-20221019212138793" style="zoom: 50%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019212118738.png)
+
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019212138793.png)
+
 
 ### Foggy Zurich
 
@@ -161,7 +162,7 @@ The authors provide three different versions of **Foggy Cityscapes** for the 500
 
 **Introduction:** The Foggy Zurich contains **3808 real-world foggy** road scenes, with pixel-level semantic annotations for 16 images with dense fog, in the city of Zurich and its suburbs. According to fog density, it is split into two categories — light and medium, consisting of **1552** **images** and **1498 images**, respectively. Besides, it has a test set–Foggy Zurich-test including 40 images with labels that are compatible with Cityscapes   
 
-<img src="image-20221020100327489.png" alt="image-20221020100327489" style="zoom:50%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221020100327489.png)
 
 ### Foggy Driving
 
@@ -175,7 +176,7 @@ Foggy Driving features pixel-level semantic annotations for the set of 19 classe
 
 They are purely used for **testing**.  
 
-<img src="image-20221019212427463.png" alt="image-20221019212427463" style="zoom: 50%;" />
+![image](https://github.com/csxuwu/Datasets-for-Domain-Adapation/blob/main/images/image-20221019212427463.png)
 
 
 
