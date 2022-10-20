@@ -1,5 +1,5 @@
 # Datasets-for-Domain-Adapation-Semantic-Segmentation
-Datasets for Domain Adapation
+Datasets for Domain Adapation in semantic segmentation.
 
 | Year | Dataset              | Scence                             |
 | :--: | -------------------- | ---------------------------------- |
